@@ -17,7 +17,7 @@ The important domains on the inspector are :
 
 3. **Movement speeds** : Here you define the speed that the camera will have in the game. The speed starts from a minimum value and based on the _secToMaxSpeed_ value it reaches to a maximum speed value.
 
-4. **Movement limits** : Here you limit the camera's movement on the 3d axes respectively. You can define how far the camera can reach on the z (length), x (width), y (height). Remember this tool works only if the boolean _enableLimits_ is set to true. However, if this future does not cover you needs you can set it to false and add a rigid body as well as a collider to the camera and set gravity to false. Then insert empty colliders around your 3d world and the camera would collide with them, giving a movement limitation.
+4. **Movement limits** : Here you limit the camera's movement on the 3d axes respectively. You can define how far the camera can reach on the z (length), x (width), y (height). Remember this tool works only if the boolean _enableLimits_ is set to true. However, if this feature does not cover you needs you can set it to false and add a rigid body as well as a collider to the camera and set gravity to false. Then insert empty colliders around your 3d world and the camera would collide with them, giving a movement limitation.
 
 5. **Rotation** : You can set if you want your camera to rotate and also apply a speed to the rotation. In _RTS mode_ you can rotate the camera but when the mouse button is released the rotation return to its default value. You can use the right mouse click to rotate the camera (click and hold).
 
